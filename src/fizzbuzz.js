@@ -1,11 +1,7 @@
-// function add(a, b) {
-//     return a + b;
-//   }
+function fizzBuzz(number) {
+    if(number % 3 === 0 ) {
+        return 'fizz';
+    }
+}
 
-// function printFizzBuzz(number) {
-//     // print fizz
-//     // print buzz
-//     // print fizzbuzz
-// }
-  
-// module.exports = { printFizzBuzz };
+module.exports = {fizzBuzz}

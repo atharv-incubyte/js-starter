@@ -1,9 +1,9 @@
-const {printFizzBuzz} = require('./fizzbuzz');
+const {fizzBuzz} = require('./fizzbuzz');
 
-test('check if the function exists', () => {
-    expect(printFizzBuzz).
+test('fizzBuzz function should return 1', () => {
+    expect(fizzBuzz(1)).toBe(1);
 });
 
-test('check if the number is positive', () => {
-  expect(printFizzBuzz)
-});
+test('should return fizz if number is a multiple of 3 ', () => {
+    expect(fizzBuzz(3)).toBe('fizz');
+})
